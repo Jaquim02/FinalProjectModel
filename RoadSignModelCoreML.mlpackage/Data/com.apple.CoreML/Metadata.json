@@ -1,0 +1,21 @@
+{
+  "MLModelVersionStringKey" : "--",
+  "MLModelDescriptionKey" : "Object detector (darknet-yolo) with non-maximum suppression created by Turi Create (version 5.2.1)",
+  "MLModelCreatorDefinedKey" : {
+    "version" : "1",
+    "classes" : "crosswalk,speedlimit,stop,trafficlight",
+    "non_maximum_suppression_threshold" : "0.45",
+    "training_iterations" : "24000",
+    "feature" : "image",
+    "include_non_maximum_suppression" : "True",
+    "type" : "ObjectDetector",
+    "iou_threshold" : "0.45",
+    "confidence_threshold" : "0.15",
+    "annotations" : "annotations",
+    "turicreate_version" : "5.2.1",
+    "max_iterations" : "0",
+    "model" : "darknet-yolo"
+  },
+  "MLModelAuthorKey" : "--",
+  "MLModelLicenseKey" : "--"
+}
